@@ -1,6 +1,5 @@
 import { createFeatureSelector, createSelector } from '@ngrx/store';
 import { State, qrcodeGeneratorKey } from './qrcode.reducer';
-import { state } from '@angular/animations';
 
 export const getState = createFeatureSelector<State>(qrcodeGeneratorKey);
 

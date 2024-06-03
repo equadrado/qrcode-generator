@@ -27,6 +27,6 @@ export class QrcodeService {
   }
 
   generateQRCodeData(qrId: string) {
-    return `${this.postURL}/${qrId}`
+    return `${qrId}`
   }
 }
